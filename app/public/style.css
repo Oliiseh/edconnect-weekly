@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(238, 175, 199);
+}
+h1{
+    color: palevioletred; font-family: cursive;
+    text-align: center; border-style: double; border-color: rebeccapurple;
+    background-color: aliceblue; border-width: 8px;
+    position: sticky;
+    top: 1px;
+}
+
+
