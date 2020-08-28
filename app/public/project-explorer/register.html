@@ -1,36 +1,73 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <nav>
+        
+        <a href= "index.html"> Project Explorer</a> <input type="search_term" placeholder="Search Projects">  
+        <button> Search</button>
+        <a href="search.html">Projects</a>
+        <a href="createproject.html">Submit</a> <a id="sl" href="register.html">Sign Up</a> <a href="login.html">Login</a> 
+
+       
+    </nav>
+
     <body>
-        <h1>Project Explorer</h1>
-        <h2><b>One Stop Database for Final Year Projects</b></h2>
+        <h1 id="signup">Sign Up</h1>
+        <!--<h2><b>One Stop Database for Final Year Projects</b></h2>
         <a href="index.html">Home</a> <a href="search.html">Projects</a> <a href="createproject.html">Submit</a> <a href="login.html">Login</a> <a href="register.html">Register</a>
         
-        <h3>Register</h3>
+        <h3>Register</h3>-->
+
+     <div class="column-layout1">
+        <div class="fn">
 
         <p>First Name:</p>
-        <input name="firstName"/>
+        <input name="firstName" placeholder="First Name" />
+        </div>
 
-        <p>Last Name:</p>
-        <input name="lastName"/>
+        <div class="ln">
+        <p id="ln">Last Name:</p>
+        <p id="ln"><input name="lastName" placeholder="First Name"/></p>
+        </div>
+     </div>
 
+
+     <div class="column-layout1">
+        <div class="ea">
         <p>Email Address:</p>
-        <input name="e-mail"/>
+        <input name="e-mail" placeholder="Your Email Address"/>
+        </div>
 
-        <p>Password:</p>
-        <input name="password"/>
-
+        <div class="pw">
+        <p id="ln">Password:</p>
+        <p id="ln"><input name="password" placeholder="Your Password"/></p>
+        </div>
+     </div>
+     
+     <div class="column-layout1">
+        <div class="mn">
         <p>Matric Number:</p>
-        <input name="matricNumber"/>
+        <input name="matricNumber" placeholder="e.g 18/2021"/>
+        </div>
 
-        <p>Program:</p>
-        <select>
+
+        <div class="pg">
+        <p id="ln">Program:</p>
+        <p id="ln"><select>
             <option value="computer_science">Computer Science</option>
             <option value="computer_information_system">Computer Information Systems</option>
             <option value="computer_technology">Computer Technology</option>
-        </select>
+        </select></p>
+        </div>
 
-        <p>Graduation Year:</p>
-        <select>
+
+        <div class="gy">
+        <p id="gy">Graduation Year:</p>
+        <p id="gy"><select>
             <option>2020</option>
             <option>2019</option>
             <option>2018</option>
@@ -42,8 +79,10 @@
             <option>2012</option>
             <option>2011</option>
             <option>2010</option>
-        </select>
+        </select></p>
+        </div>
+     </div>
 
-        <p><input type="submit"/></p>
+        <p id="signup"><button id="get-started">Sign Up</button></p>
     </body>
 </html>

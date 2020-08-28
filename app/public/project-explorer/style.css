@@ -1,0 +1,98 @@
+nav {
+    background-color: cornflowerblue;
+    height: 45px;
+    font-size: 20px;
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+
+#sl{
+    padding-left: 670px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 250px; padding-right: 250px;
+}
+
+#hh2{
+    padding-left: 250px; padding-right: 250px;
+}
+
+#get-started{
+    background-color: blue;
+    height: 25px;
+    color: white;
+}
+
+#login{
+    background-color:grey;
+    height: 25px;
+    color: white;
+}
+
+
+.column-layout{
+    max-width: 1300px;
+    background-color: #ffffff;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.Project-1 {
+       order: 4;
+}
+
+.Project-2 {
+        order: 3;
+}
+
+.Project-3 {
+    order: 2;
+}
+
+.Project-4 {
+    order: 1;
+}
+ 
+#llogin{
+
+    padding-left: 550px; padding-right: 250px; padding-top: 10px;
+  
+}
+
+#signup{
+    padding-left: 400px; padding-right: 250px; padding-top: 10px;
+  
+}
+
+.column-layout1{
+    max-width: 1300px;
+    background-color: #ffffff;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding-left: 400px; padding-right: 250px;
+    display: flex;
+}
+
+#ln{
+  padding-left: 80px;
+}
+
+#gy{
+  padding-left: 20px;
+}
+
+#update{
+    background-color: blue;
+    height: 25px;
+    color: white;
+}
