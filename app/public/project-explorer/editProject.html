@@ -14,32 +14,28 @@
         </ul>
 
         <h4>Edit Project</h4>
-
-        <p>Project Name:</p>
-
-    <form>    
-        <input value="Project 4"/>
-    </form>
+        
+        <form>
+        <p>Project Name:</p> 
+        <input type="text" name="name" value="Project 4"/>
+    
         <p>Project Abstract:</p>
-    <form>
-        
-        <input value="Lorem ipsum dolor sit amet"/>
-        
-    </form>
+        <textarea name="abstract" rows="4" cols="40">
+Lorem ipsum dolor sit amet
 
+        </textarea>
+        
         <p>Authors:</p>
-    <form>
-        <input value ="Ade Ade, Brian James"/>
-    </form>
+        <input type="text" name="authors" value ="Ade Ade, Brian James"/>
 
         <p>Tags:</p>
-    <form>
         <input value="#yaml, #ejs"/>
-    </form>
-        <p>Add Project File:</p>
-        <input type="submit" input name="projectFile" value="Choose File"/> No file chosen
 
-        <p><input type="submit"/></p>
-        
+        <p>Add Project File:</p>
+        <input type="file" name="projectFile"/> 
+
+        <p><input type="submit" name="submit"/></p>
+        </form>
+
     </body>
 </html>
