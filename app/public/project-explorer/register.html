@@ -6,13 +6,15 @@
         
     </head>
     <nav>
-        
-        <a href= "index.html"> Project Explorer</a> <input type="search_term" placeholder="Search Projects">  
-        <button> Search</button>
+        <form>
+        <a href= "index.html"> Project Explorer</a> 
+         <input type="search" name="searchProjects" placeholder="Search Projects">  
+        <input type="submit" name="submit" class="submit" value="Search">
         <a href="search.html">Projects</a>
         <a href="createProject.html">Submit</a> <a id="sl" href="register.html">Sign Up</a> <a href="login.html">Login</a> 
 
-       
+        </form>
+    
     </nav>
 
     <body>
@@ -22,16 +24,17 @@
         
         <h3>Register</h3>-->
 
+        <form>
      <div class="column-layout1">
         <div class="fn">
 
         <p>First Name:</p>
-        <input name="firstName" placeholder="First Name" />
+        <input type="text" name="firstName" placeholder="First Name" />
         </div>
 
         <div class="ln">
         <p id="ln">Last Name:</p>
-        <p id="ln"><input name="lastName" placeholder="First Name"/></p>
+        <p id="ln"><input type="text" name="lastName" placeholder="First Name"/></p>
         </div>
      </div>
 
@@ -39,25 +42,25 @@
      <div class="column-layout1">
         <div class="ea">
         <p>Email Address:</p>
-        <input name="e-mail" placeholder="Your Email Address"/>
+        <input type="email" name="email" placeholder="Your Email Address"/>
         </div>
 
         <div class="pw">
         <p id="ln">Password:</p>
-        <p id="ln"><input name="password" placeholder="Your Password"/></p>
+        <p id="ln"><input type="password" name="password" placeholder="Your Password"/></p>
         </div>
      </div>
      
      <div class="column-layout1">
         <div class="mn">
         <p>Matric Number:</p>
-        <input name="matricNumber" placeholder="e.g 18/2021"/>
+        <input type="text" name="matricNumber" placeholder="e.g 18/2021"/>
         </div>
 
 
         <div class="pg">
         <p id="ln">Program:</p>
-        <p id="ln"><select>
+        <p id="ln"><select name="program">
             <option value="computer_science">Computer Science</option>
             <option value="computer_information_system">Computer Information Systems</option>
             <option value="computer_technology">Computer Technology</option>
@@ -67,22 +70,23 @@
 
         <div class="gy">
         <p id="gy">Graduation Year:</p>
-        <p id="gy"><select>
-            <option>2020</option>
-            <option>2019</option>
-            <option>2018</option>
-            <option>2017</option>
-            <option>2016</option>
-            <option>2015</option>
-            <option>2014</option>
-            <option>2013</option>
-            <option>2012</option>
-            <option>2011</option>
-            <option>2010</option>
+        <p id="gy"><select name="graduationYear">
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
         </select></p>
         </div>
      </div>
 
-        <p id="signup"><button id="get-started">Sign Up</button></p>
+        <p id="signup"><button type="submit" id="get-started">Sign Up</button></p>
+        </form>
     </body>
 </html>

@@ -6,13 +6,15 @@
         
     </head>
     <nav>
-        
-        <a href= "index.html"> Project Explorer</a> <input type="search_term" placeholder="Search Projects">  
-        <button> Search</button>
+        <form>
+        <a href= "index.html"> Project Explorer</a> 
+         <input type="search" name="searchProjects" placeholder="Search Projects">  
+        <input type="submit" name="submit" class="submit" value="Search">
         <a href="search.html">Projects</a>
         <a href="createProject.html">Submit</a> <a id="sl" href="register.html">Sign Up</a> <a href="login.html">Login</a> 
 
-       
+        </form>
+    
     </nav>
 
     <body >
@@ -24,12 +26,16 @@
 
         
         <h3 id="llogin">Login</h3>
+
+        <form>
         <p id="llogin">Email Address:</p>
-        <p id="llogin"><input type="search_term" placeholder="Enter Email"></p>
+        <p id="llogin"><input type="email" name="email" placeholder="Enter Email"></p>
 
         <p id="llogin">Password:</p>
-        <p id="llogin"><input type="search_term" placeholder="Password"></p>
+        <p id="llogin"><input type="password" name="password" placeholder="Password"></p>
 
-        <p id="llogin"><button id="get-started">Login</button></p>
+        <p id="llogin"><button type="submit" value="login" id="get-started">Login</button></p>
+        </form>
+
     </body>
 </html>

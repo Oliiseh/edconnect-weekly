@@ -7,13 +7,15 @@
         
     </head>
     <nav>
-        
-        <a href= "index.html"> Project Explorer</a> <input type="search_term" placeholder="Search Projects">  
-        <button> Search</button>
+        <form>
+        <a href= "index.html"> Project Explorer</a> 
+         <input type="search" name="searchProjects" placeholder="Search Projects">  
+        <input type="submit" name="submit" class="submit" value="Search">
         <a href="search.html">Projects</a>
         <a href="createProject.html">Submit</a> <a id="sl" href="register.html">Sign Up</a> <a href="login.html">Login</a> 
 
-       
+        </form>
+    
     </nav>
     
     <body>
@@ -25,19 +27,23 @@
     
         <h3>Submit Project</h3>
 
+        <form>
         <p>Project Name:</p>
-        <input name="name"/>
+        <input type="text" name="name"/>
 
         <p>Project Abstract:</p>
-        <input name="abstract" height="50px"/>
+        <textarea name="abstract" rows="4" cols="50">
+
+        </textarea>
 
         <p>Authors:</p>
-        <input name="authors"/>
+        <input type="text" name="authors"/>
 
         <p>Tags:</p>
-        <input name="tags"/>
+        <input type="text" name="tags"/>
 
-        <p><button id="get-started">Continue</button></p>
+
+        <p><button type="submit" id="get-started">Continue</button></p>
         
     </body>
 </html>

@@ -6,13 +6,15 @@
         
     </head>
     <nav>
-        
-        <a href= "index.html"> Project Explorer</a> <input type="search_term" placeholder="Search Projects">  
-        <button> Search</button>
+        <form>
+        <a href= "index.html"> Project Explorer</a> 
+         <input type="search" name="searchProjects" placeholder="Search Projects">  
+        <input type="submit" name="submit" class="submit" value="Search">
         <a href="search.html">Projects</a>
         <a href="createProject.html">Submit</a> <a id="sl" href="register.html">Sign Up</a> <a href="login.html">Login</a> 
 
-       
+        </form>
+    
     </nav>
 
     <body>
@@ -31,31 +33,27 @@
 
         <h4>Edit Project</h4>
 
-        <p>Project Name:</p>
-
-    <form>    
-        <input value="Project 4"/>
-    </form>
-        <p>Project Abstract:</p>
-    <form>
+        <form>
+            <p>Project Name:</p> 
+            <input type="text" name="name" value="Project 4"/>
         
-        <input value="Lorem ipsum dolor sit amet"/>
-        
-    </form>
-
-        <p>Authors:</p>
-    <form>
-        <input value ="Ade Ade, Brian James"/>
-    </form>
-
-        <p>Tags:</p>
-    <form>
-        <input value="#yaml, #ejs"/>
-    </form>
-        <p>Add Project File:</p>
-        <input type="submit" input name="projectFile" value="Choose File"/> No file chosen
-
-        <p><input type="submit"/></p>
+            <p>Project Abstract:</p>
+            <textarea name="abstract" rows="4" cols="40">
+    Lorem ipsum dolor sit amet
+    
+            </textarea>
+            
+            <p>Authors:</p>
+            <input type="text" name="authors" value ="Ade Ade, Brian James"/>
+    
+            <p>Tags:</p>
+            <input value="#yaml, #ejs"/>
+    
+            <p>Add Project File:</p>
+            <input type="file" name="projectFile"/> 
+    
+            <p><input type="submit" name="submit"/></p>
+            </form>
         
     
     </body>

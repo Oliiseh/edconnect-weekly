@@ -6,13 +6,15 @@
         
     </head>
     <nav>
-        
-        <a href= "index.html"> Project Explorer</a> <input type="search_term" placeholder="Search Projects">  
-        <button> Search</button>
+        <form>
+        <a href= "index.html"> Project Explorer</a> 
+         <input type="search" name="searchProjects" placeholder="Search Projects">  
+        <input type="submit" name="submit" class="submit" value="Search">
         <a href="search.html">Projects</a>
         <a href="createProject.html">Submit</a> <a id="sl" href="register.html">Sign Up</a> <a href="login.html">Login</a> 
 
-       
+        </form>
+    
     </nav>
 
 
@@ -26,18 +28,20 @@
 
         <p><b>Search Project By</b></p>
    
+        <form>
         <p>Project Name, Authors, Abstract, Tags:</p>
-        <input name="searchTerm"/>
+        <input type="text" name="searchTerm"/>
 
         <p>Name:</p>
         
-        <select>
+        <select name="authorName">
             <option>Ade Bolade</option>
             <option>Brian Teleo</option>
             <option>James Correy</option>
         </select>
 
         <p><input type="submit" name="submit" class="submit"  value="Search"/></p>
+        </form>
 
         <p><b>Search Result</b></p>
 
